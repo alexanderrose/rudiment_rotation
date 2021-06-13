@@ -30,6 +30,8 @@ h1:hover{
 }
 h1:active{
   color:white;
+  animation-name:test;
+  animation-duration: 600ms;
 }
 
 h3{
