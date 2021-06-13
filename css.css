@@ -29,6 +29,7 @@ h1:hover{
 
 h1:active{
   color:white;
+  padding-left:0em; padding-right:0em;
 }
 
 h3{
