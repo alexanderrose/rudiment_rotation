@@ -3,14 +3,14 @@ body{
   color: white;
   font-family: "futura";
   text-align: center;
-  font-size:2em;
+  font-size:1.8em;
 }
 h1{
   color:black;
   display:inline-block;
   font-size: 3em;
   padding:0.5em;
-  margin-top:1em; margin-bottom:0.4em;
+  margin-top:0.4em; margin-bottom:0.4em;
   background:white;
   transition-duration:100ms;
   
