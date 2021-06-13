@@ -23,15 +23,11 @@ h1{
     user-select: none;
 
 }
-h1:hover{
-
-  animation-name: test;
-  animation-duration: 600ms;
-}
 h1:active{
   color:white;
-  animation-name:test;
+  animation-name: test;
   animation-duration: 600ms;
+  animation-play-state: running;
 }
 
 h3{
@@ -42,6 +38,7 @@ h3{
   display:none;
 }
 @keyframes test {
-  from{ padding-left:2em;padding-right:2em;}
-  to{ padding-left:0.5em;padding-right:0.5em;}
+  0% { padding-left: 0.5em; padding-right: 0.5em;}
+  50% { padding-left:2em;padding-right:2em;}
+  100% { padding-left:0.5em;padding-right:0.5em;}
 }
