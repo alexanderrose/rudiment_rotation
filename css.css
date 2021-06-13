@@ -3,7 +3,7 @@ body{
   color: white;
   font-family: "futura";
   text-align: center;
-  font-size:1.8em;
+  font-size:2em;
 }
 h1{
   color:black;
@@ -32,6 +32,7 @@ h1:active{
 }
 
 h3{
+  margin:0.4em;
   font-size:3em
 }
 #textbox{
