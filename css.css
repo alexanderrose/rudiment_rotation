@@ -1,0 +1,31 @@
+body{
+  background: black;
+  color: white;
+  font-family: "futura";
+  text-align: center;
+}
+h1{
+  color:black;
+  display:inline-block;
+  font-size: 3em;
+  padding:0.5em;
+  margin-top:1em; margin-bottom:0.4em;
+  background:white;
+  user-select:none;
+  transition-duration:100ms;
+}
+h1:hover{
+  cursor:pointer;
+  padding-left:2em; padding-right:2em;
+}
+
+h1:active{
+  color:white;
+}
+
+h3{
+  font-size:3em
+}
+#textbox{
+  display:none;
+}
