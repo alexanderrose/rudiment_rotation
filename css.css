@@ -22,11 +22,13 @@ h1{
     user-select: none;
 
 }
+h1:hover{
+  padding-left:2em;padding-right:2em;
+}
 
 h1:active{
   color:white;
-  animation-name: ani;
-  animation-duration: 200ms;
+  padding-left:0.5em;padding-right:0.5em;
 }
 
 h3{
@@ -35,9 +37,4 @@ h3{
 }
 #textbox{
   display:none;
-}
-@keyframes ani {
-  0%{   padding-left:0.5em; padding-right:0.5em;}
-  50%{ padding-left:2em; padding-right:2em;}
-  100%{  padding-left:0.5em; padding-right:0.5em;}
 }
