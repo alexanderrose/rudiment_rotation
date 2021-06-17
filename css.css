@@ -23,7 +23,8 @@ h1{
 
 }
 h1:hover{
-  padding-left:2em;padding-right:2em;
+  animation-name:ani;
+  animation-duration:500ms;
 }
 
 h1:active{
@@ -38,3 +39,10 @@ h3{
 #textbox{
   display:none;
 }
+
+@keyframes ani {
+  0%{padding-left:0.5em;padding-right:0.5em;}
+  50%{padding-left:2em;padding-right:2em;}
+  100%{padding-left:0.5em;padding-right:0.5em;}
+}
+
