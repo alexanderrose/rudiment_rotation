@@ -24,12 +24,14 @@ h1{
 }
 h1:hover{
   animation-name:ani;
-  animation-duration:500ms;
+  animation-duration:200ms;
 }
 
 h1:active{
   color:white;
   padding-left:0.5em;padding-right:0.5em;
+  animation-name:ani;
+  animation-duration:200ms;
 }
 
 h3{
