@@ -41,7 +41,7 @@ var rudiments=[
   "Thirds",
   "Accent Singles",
   "Inv. Doubles",
-  "Inv. Six Stroke Roll",
+  "Straight Six Stroke Roll",
   "Paradiddles",
   "Inv. Swiss Triplet",
   "Inv. Flam Singles",
