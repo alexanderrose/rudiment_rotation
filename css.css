@@ -23,8 +23,7 @@ h1{
 
 }
 h1:hover{
-  animation-name:ani;
-  animation-duration:200ms;
+  padding-left:2em;padding-right:2em;
 }
 
 h1:active{
