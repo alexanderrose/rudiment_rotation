@@ -8,6 +8,7 @@ body{
 
 
 h1{
+  cursor:default;
   color:black;
   display:inline-block;
   font-size: 3em;
