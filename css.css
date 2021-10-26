@@ -1,45 +1,45 @@
-body{
+body {
   background: black;
   color: white;
   font-family: "futura";
   text-align: center;
-  font-size:2em;
+  font-size: 2em;
 }
 
-
-h1{
-  cursor:default;
-  color:black;
-  display:inline-block;
+h1 {
+  cursor: default;
+  color: black;
+  display: inline-block;
   font-size: 3em;
-  padding:0.5em;
-  margin-top:1em; margin-bottom:0.8em;
-  background:white;
-  transition-duration:100ms;
-
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+  background: white;
+  transition-duration: 100ms;
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-}
-h1:hover{
-  padding-left:2em;padding-right:2em;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-h1:active{
-  color:white;
-  padding-left:0.5em;padding-right:0.5em;
+h1:hover {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
-
-
-h3{
-  margin:0.2em;
-  font-size:3em
+h1:active {
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
-#textbox{
-  display:none;
+
+h3 {
+  margin: 0.2em;
+  font-size: 3em
+}
+
+#textbox {
+  display: none;
 }
