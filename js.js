@@ -1,6 +1,6 @@
 
-var x1=0;
-var x2=0;
+var x1 = 0;
+var x2 = 0;
 
 /*********************
 
@@ -30,7 +30,7 @@ Harder:
 ***********************/
 
 
-var rudiments=[
+var rudiments = [
   //EASY
   "Singles",
   "Doubles",
@@ -48,21 +48,21 @@ var rudiments=[
   "Chops"
 ];
 
-function generate(){
-  document.getElementById("info").style.display="none";
-  document.getElementById("textbox").style.display="block";
+function generate() {
+  document.getElementById("info").style.display = "none";
+  document.getElementById("textbox").style.display = "block";
 
-sum();
-
-function sum(){
-x1=Math.round(Math.random()*(rudiments.length-1));
-x2=Math.round(Math.random()*(rudiments.length-1));
-}
-if(x1==x2){
   sum();
-}
+
+  function sum() {
+    x1 = Math.round(Math.random() * (rudiments.length - 1));
+    x2 = Math.round(Math.random() * (rudiments.length - 1));
+  }
+  if (x1 == x2) {
+    sum();
+  }
 
 
-document.getElementById("place1").innerHTML=rudiments[x1];
-document.getElementById("place2").innerHTML=rudiments[x2];
+  document.getElementById("place1").innerHTML = rudiments[x1];
+  document.getElementById("place2").innerHTML = rudiments[x2];
 }
